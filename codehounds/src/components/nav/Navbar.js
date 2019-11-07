@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import logoBlack from '../../pages/images/logoBlack.png'
+import logoWhite from '../../pages/images/logoWhite.png'
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 import "./navbar.css";
 
@@ -10,8 +11,8 @@ const NavCom = (props) => {
 
   return (
     <div>
-      <Navbar color="faded" light>
-        <NavbarBrand href="/" id="navImg" className="mr-auto"><img id="navImg" src={logoBlack} alt="product"/></NavbarBrand>
+      <Navbar id='navBody' color="faded" light>
+        <NavbarBrand href="/" id="navImg" className="mr-auto"><img id="navImg" src={logoWhite} alt="product"/></NavbarBrand>
             <div id="linkies">
               <NavLink id='noCol' href="/ ">Home</NavLink>
               <NavLink id='noCol' href="/Development">Development</NavLink>
@@ -21,15 +22,15 @@ const NavCom = (props) => {
             </div>
         <NavbarToggler id='hamburger' onClick={toggleNavbar} className="mr-2" />
         <Collapse isOpen={!collapsed} navbar>
-          <Nav navbar>
+          <Nav navbar >
             <NavItem>
-              <NavLink href="/">Home</NavLink>
+              <NavLink id='dropText' href="/">Home</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/Development">Development</NavLink>
+              <NavLink id='dropText' href="/Development">Development</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/ADA ">ADA</NavLink>
+              <NavLink id='dropText' href="/ADA ">ADA</NavLink>
             </NavItem>          
           </Nav>
         </Collapse>

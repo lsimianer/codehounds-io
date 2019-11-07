@@ -22,11 +22,18 @@ class Landing extends Component {
         <div>
             {/* <Container id='landingBody' > */}
         <Navbar/>
-        <Container  id="card-holder">
-            <Zoom>
-                <img src={logoGreen}/>
-            </Zoom>
-            <h1> landing page</h1>
+        <Container className="sectionPointy" id="section1">
+            <div id='sectionOneLogo'>
+                <Zoom>
+                    <img id='mainLogo' src={logoGreen}/>
+                </Zoom>
+            </div>
+            <Container id='sectioneOneText'> 
+            <h1>Disrupting the way web development is done</h1>
+            <h3>We pride ourselves on soft skills that match our technical skills
+            having a web development team that understands your vision and builds it step by step with you</h3>
+            {/* <Link */}
+            </Container>
             </Container>
             {/* </Container> */}
 

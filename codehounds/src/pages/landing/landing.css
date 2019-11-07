@@ -1,3 +1,40 @@
-body{
+body {
     /* background-color: black; */
+}
+
+.container {}
+
+.sectionPointy {
+    width: 100vw;
+    height: 100vh;
+    z-index: -5;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
+    padding-top: 0%;
+    margin-top: 0%;
+    padding-left: 0;
+    padding-right: 0;
+    border-color: transparent;
+}
+
+#section1 {
+    background-color: black;
+    color: white;
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+}
+
+#sectionOneLogo {
+    display: flex;
+    justify-content: center;
+    padding-top: 10rem;
+}
+
+#mainLogo {
+    height: 12rem;
+}
+
+#sectioneOneText {
+    margin-top: 3%;
+    width: 75%;
+    justify-content: center;
 }
