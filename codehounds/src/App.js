@@ -5,6 +5,10 @@ import Landing from "./pages/landing/Landing";
 import Development from './pages/dev/Dev';
 import ADA from './pages/ada/Ada'
 import NoMatch from "./pages/NoMatch";
+//styles and scripts
+import './helpers/modernizr';
+import './pages/standardCss/standardize.css';
+import './pages/standardCss/main.css'
 // import Pay from "./pages/pay/Pay";
 
 function App() {
