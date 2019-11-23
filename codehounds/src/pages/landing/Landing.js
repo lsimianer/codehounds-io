@@ -59,40 +59,55 @@ class Landing extends Component {
                 <h2 class="major">Intro</h2>
                 {/* <span class="image main"></span> */}
                 <h3>Getting your business in front of potential customers is a challenge, closing the deal after is even harder.
-                    CodeHounds makes that easier than ever. View our
-                    <a className='pulseLink' href="#work"> Current Customers</a> here.</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent
-                    taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-                    libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut
-                    ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor.
-                    Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique
-                    senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus.
-                    Pellentesque aliquam maximus risus, vel sed vehicula.</p>
+                    </h3> 
+                     {/* CodeHounds makes that easier than ever.  */}
+                <p>The CodeHounds mission is one of transparency and growth for all.We achieve this by creating the 
+                    vision of our customers and in turn our product being a game changer for their business. That being said,
+                    the only way we grow, is when you do.
+                </p>
             </article>
 
             {/* <!-- Work --> */}
             <article id="work">
                 <h2 class="major">Work</h2>
                 <span class="image main"><img src="images/pic02.jpg" alt="" /></span>
-                <p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac.
-                    Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer
-                    sollicitudin mauris nec lorem luctus ultrices.</p>
-                <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna
+                <h3>We've worked with everyone from nutrition super stores to your local landscaping company and whether your contract
+                    has three zeroes at the end or five, you'll get the same treatment and attention to detail.
+                </h3>
+                {/* <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna
                     sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas
                     laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat
                     tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-                    tempus.</p>
+                    tempus.</p> */}
             </article>
 
             {/* <!-- About --> */}
             <article id="about">
-                <h2 class="major">About</h2>
+                <h2 class="major">Who We Are</h2>
                 <span class="image main"><img src="images/pic03.jpg" alt="" /></span>
-                <p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at
-                    eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-                    lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada
-                    fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum
-                    dolor sit amet.</p>
+                <p>CodeHounds is a veteran owned and operated Web Development studio. After the military our CEO used 
+                    his GI bill trying to find the balance of money and passion, it took a few years until he found his way to
+                    web development but the passion he discovered grew quickly. He was the first person hired out of the University texas 
+                    at Austin Full Stack web development bootcamp, he was also the honor grad. His skillset beginning to match his passion, 
+                    he noticed a problem within his industry. Web firms were speaking like their work was secretive and no one could understand it,
+                    so they charged whatever they wanted and had lackluster client communication. "No longer" he said, and thus became CodeHounds.
+                </p>
+            </article>
+
+            <article id="contract">
+                <h2 class="major">how we work</h2>
+                <span class="image main"><img src="images/pic03.jpg" alt="" /></span>
+                <h3>Working with CodeHounds is a straight forward process.
+                </h3>
+                <ol>
+                <li>Contact us via email with your, current website or business needing one, and a short summary of what you need done.</li>
+                <li>Have a budget and timeline in mind. These are part of our contract requirements before starting</li>
+                <li>Designate a point of contact that can sign off on changes made or current work.</li>
+                <li>Define the terms of our business relationship (ongoing support, quick fix, or new build) </li>
+                <li>Put a deposit down on your project</li>
+                <li>Review items to be satisfactory until finished</li>
+                <li>Enjoy your new website or app</li>
+                </ol>
             </article>
 
             {/* <!-- Contact --> */}
