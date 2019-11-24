@@ -1,12 +1,11 @@
 import React, {Component} from "react";
 import { Link } from "react-router-dom";
 import Zoom from 'react-reveal/Zoom';
-import logoGreen from '../images/logoGreen.png';
-import logoBlack from '../images/logoBlack.png';
 import logoWhite from '../images/logoWhite.png';
 import "./landing.css";
-import Navbar  from '../../components/nav/Navbar';
-// import './fontawesome-all.min.css';
+import { FaInstagram } from 'react-icons/fa';
+import { MdEmail, MdCode } from 'react-icons/md';
+
 
 // import Footer  from '../../components/footer/Footer';
 
@@ -18,7 +17,7 @@ import { Container, Row, Col } from 'reactstrap';
 //     background-image: linear-gradient(#20202052, #34abcf65)
 
 class Landing extends Component {
-
+    
     render() {
     return (
         <div>
@@ -31,8 +30,7 @@ class Landing extends Component {
     {/* <!-- Header --> */}
     <header id="header">
         
-                <img id='mainLogo' src={logoWhite} />
-            
+                <img id='mainLogo' src={logoWhite} alt="logo, scroll down to read about us, our contact section is at the bottom" />
             <div class="content">
                 <div class="inner">
                     <h1>CodeHounds.IO</h1>
@@ -140,8 +138,9 @@ class Landing extends Component {
                     </ul>
                 </form>
                 <ul class="icons">
-                    <li><a href="#" class="fa-instagram"><span class="label">Instagram</span></a></li>
-                    <li><a href="#" class="fa-github"><span class="label">GitHub</span></a></li>
+                <li><a href="#" id='instaIcon' class="footyIcon"><FaInstagram/></a></li>
+                <li><a href="#" id='Email' class="footyIcon"><MdEmail/></a></li>
+                <li><a href="#" id='codeHoundsIcon' class="footyIcon"><MdCode/></a></li>
                 </ul>
             </article>
 
